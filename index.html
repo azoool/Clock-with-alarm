@@ -1,0 +1,22 @@
+<html>
+    <head>
+	<title>Horloge</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="bootstrap.css"/>
+		<script src="script.js" type="text/javascript"></script>
+    </head>
+    <body>
+	<h1 id="afficheHeure"></h1>
+	<div id="contenuReveil"></div>
+	<div>
+            <button type="submit" value="+" class='btn btn-default btnPlus' onclick="ajoutReveil()">+</button>
+	</div>
+	<div>
+		<audio src="audio/fire.mp3" id="sound1"></audio>
+		<audio src="audio/submarine.mp3" id="sound2"></audio>
+		<audio src="audio/dangerous_factory.mp3" id="sound3"></audio>
+	</div>
+	<script type="text/javascript">window.onload = afficheHeure();</script>
+    </body>
+</html>

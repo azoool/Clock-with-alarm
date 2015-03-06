@@ -1,0 +1,52 @@
+body {
+	background-color: #28174b;	
+	color: white;
+}
+h1{
+    font-size: 300%;
+    margin-top: 50px;
+    padding-left: 18%;
+	padding-bottom: 50px;
+}
+
+.rev {
+	display: inline-block;
+	margin-left: 150px;
+	margin-top: 20px;
+	padding: 20px;
+	border: 5px solid white;
+	border-radius: 10px;
+	box-shadow: 0 4px 7px rgba(255, 255, 255, 0.75);
+	background-color: #9b9caf;
+}
+
+.btn {
+	margin-left: 20px;
+}
+
+.form1 {
+ margin-left: 50px;	
+}
+
+.form2 {
+	margin-left: 20px;
+}
+
+.form3 {
+	margin-left: 50px;
+}
+.form4 {
+	margin-left: 50px;
+}
+
+.form5 {
+	margin-left: 50px;
+}
+
+.form6 {
+	margin-top: 20px;
+	margin-left: 300px;
+}
+
+.btnPlus {
+	margin-left: 50px;
